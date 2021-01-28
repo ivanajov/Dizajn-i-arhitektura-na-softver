@@ -1,0 +1,219 @@
+.wrapper {
+    background-image: url(ksenija.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    margin-left: 40%;
+    font-family: sans-serif;
+}
+
+header {
+    padding-top: 200px;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+
+header li {
+    margin: 30px;
+    background-color: aquamarine;
+    padding: 13px 30px;
+    border-radius: 30px;
+}
+
+header li:hover{
+    margin: 30px;
+    background-color: lightblue;
+    padding: 13px 30px;
+    border-radius: 30px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.grad {
+    width: 400px;
+}
+
+main {
+    color: lightblue;
+    margin: 80px 250px 0 400px;
+    font-size: 20px;
+}
+
+main a{
+    background-color: aquamarine;
+    padding: 13px 30px;
+    border-radius: 30px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 190px;
+}
+
+main li {
+    list-style: none;
+}
+
+main li p {
+    background-color: lightblue;
+    padding: 13px 30px;
+    border-radius: 30px;
+    color: black;
+}
+
+main .apteka-info{
+    background-color: lightblue;
+    padding: 40px 30px;
+    border-radius: 60px;
+    color: black;
+    font-size: 18px;
+    width: 60%;
+}
+
+.grad-ime {
+    background-color: aquamarine;
+    padding: 13px 30px;
+    border-radius: 30px;
+    color: black;
+    font-weight: bold;
+    margin-right: 40px;
+}
+
+#vnesi {
+    margin: 80px 0;
+}
+
+#town {
+    background-color: aquamarine;
+    padding: 13px 30px;
+    border-radius: 30px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 150px;
+}
+
+footer a{
+    background-color: aquamarine;
+    padding: 13px 30px;
+    border-radius: 30px;
+    color: black;
+    text-decoration: none;
+    margin-left: 640px;
+}
+
+#zacuvani-apteki {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    position: relative;
+    right: 300px;
+    bottom: 60px;
+}
+
+#zacuvani-apteki * {
+    margin: 15px;
+}
+
+.lokacija {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    font-size: 30px;
+    color: red;
+    font-family: Arial;
+    width: 400px;
+    position: relative;
+    left: 460px;
+    top: 550px;
+}
+
+.navigacija-body {
+    background-image: url(ksenija.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 1500px;
+}
+
+#instructions {
+    position: absolute;
+    margin: 20px;
+    width: 40%;
+    top: 680px;
+    /* bottom: 20%; */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    overflow-y: scroll;
+    font-family: sans-serif;
+    font-size: 0.8em;
+    line-height: 2em;
+    display: none;
+    left: 25%;
+  }
+  
+  .duration {
+    font-size: 2em;
+  }
+  
+  #odb-apteka {
+      color: black;
+      position: relative;
+      top: 700px;
+      text-align: center;
+      font-size: 30px;
+      font-family: sans-serif;
+      background-color: aquamarine;
+      width: 30%;
+      align-self: center;
+      border-radius: 30px;
+      padding: 10px;
+      left: 32%;
+  }
+
+  #map {
+      border-radius: 30px;
+  }
+
+  #navbtn {
+      position: relative;
+      bottom: 18px;
+      font-size: 20px;
+      color: aquamarine;
+      font-weight: bold;
+  }
+
+  #izb-nova-apt {
+      color: aquamarine;
+      font-size: 15px;
+      font-family: sans-serif;
+      width: 30%;
+      position: relative;
+      left: 35%;
+      top: 10px;
+      padding: 4px;
+      border-radius: 4px;
+      text-align: center;
+  }
+
+  #odbrana-apteka-info {
+      position: relative;
+      width: 30%;
+      left: 35%;
+      background-color: aquamarine;
+      color: black;
+      padding: 10px;
+      top: 5px;
+      border-radius: 10px;
+      text-align: center;
+      font-family: sans-serif;
+  }

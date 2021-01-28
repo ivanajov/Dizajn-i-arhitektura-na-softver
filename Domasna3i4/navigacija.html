@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8' />
+    <title></title>
+    <link rel='stylesheet' href="assets/css/style.css">
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.0.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.0.1/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            position: absolute;
+            top: 170px;
+            bottom: 0;
+            left: 20%;
+            width: 60%;
+            height: 500px;
+        }
+    </style>
+</head>
+
+<body class="navigacija-body">
+    <script src="scripts/navigacija.js">
+    </script>
+    <div id='map'></div>
+    <div id="instructions"></div>
+    <script>
+    </script>
+    <script>
+        var x = document.getElementById("demo");
+
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(drawMap);
+            } else {
+                console.log("location error");
+                return;
+            }
+        }
+
+        function drawMap(position) {
+            navigacija([position.coords.longitude, position.coords.latitude]);
+        }
+
+        window.onload = () => getLocation();
+    </script>
+</body>
+
+</html>
